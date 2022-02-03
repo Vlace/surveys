@@ -6,7 +6,7 @@
 
 <p>The title of your survey is {{satisfaction_survey.title}}!</p>
 <p>{{satisfaction_survey.instructions}}!</p>
-<form method="get" action="/questions/0">
+<form method="POST" action="/reset_responses">
     <button type="submit">Continue</button>
 </form>
 {% endblock %}
